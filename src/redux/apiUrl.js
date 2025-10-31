@@ -1,0 +1,19 @@
+// 📁 src/config.js
+
+// ✅ Automatically switch between local and deployed URL
+// const BASE_DOMAIN =
+//   import.meta.env.MODE === "development"
+//     ? "http://localhost:5004"
+//     : "https://nexora-xb3v.onrender.com"; 
+
+// export const API_BASE_URL = `${BASE_DOMAIN}/api`;
+
+// const USE_LOCAL = false; 
+const USE_LOCAL = true; 
+
+const BASE_DOMAIN = USE_LOCAL
+  ? "http://localhost:5004": "https://nexora-1-cbyr.onrender.com"
+  // : "https://nexora-xb3v.onrender.com";
+  
+
+export const API_BASE_URL = `${BASE_DOMAIN}/api`;
