@@ -4,7 +4,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
 
-import connectDB from "./config/mongoDB.js";
+import connectDB from './config/mongoDB.js';
 import userRouter from "./routes/user.route.js";
 import videoRouter from "./routes/video.route.js";
 import playlistRouter from "./routes/playlist.route.js";
