@@ -10,7 +10,7 @@
 
 // const USE_LOCAL = false; 
 
-const BASE_DOMAIN =  "http://localhost:5000" 
+const BASE_DOMAIN =  "https://yt-clone-kofa.onrender.com" 
   
 
 export const API_BASE_URL = `${BASE_DOMAIN}/api`;
