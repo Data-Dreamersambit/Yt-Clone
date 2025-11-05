@@ -9,11 +9,8 @@
 // export const API_BASE_URL = `${BASE_DOMAIN}/api`;
 
 // const USE_LOCAL = false; 
-const USE_LOCAL = true; 
 
-const BASE_DOMAIN = USE_LOCAL
-  ? "http://localhost:5004": "https://nexora-1-cbyr.onrender.com"
-  // : "https://nexora-xb3v.onrender.com";
+const BASE_DOMAIN =  "http://localhost:5000" 
   
 
 export const API_BASE_URL = `${BASE_DOMAIN}/api`;
